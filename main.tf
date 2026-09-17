@@ -1,5 +1,11 @@
 resource "local_file" "pet" {
-    filename = "/home/omotayoa/Documents/pets.txt"
-    content = "We love Pets too much !"
+    filename = var.filename
+    content = var.content
     file_permission = "0700"
+}
+
+resource "random_pet" "my-pet" {
+    prefix = var.prefix
+    separator = var.prefix
+    length = var.lenght
 }
