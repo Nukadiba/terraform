@@ -1,8 +1,8 @@
 variable "filename" {
-    default = "/home/omotayoa/Documents/Okay I love cat just cat.txt"
+    default = "/home/omotayoa/Documents/pets.txt"
 }
 variable "content" {
-    default = "I don't love Pets !!!!!!!!!!!!!"
+    default = "I don't love Pets !!!!!!!!!!!!! \n Okay I love cat just cat"
 }
 variable "prefix" {
     default = "Mrs"
