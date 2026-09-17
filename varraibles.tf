@@ -1,5 +1,5 @@
 variable "filename" {
-    default = "/home/omotayoa/Documents/pets2.txt"
+    default = "/home/omotayoa/Documents/Okay I love cat just cat.txt"
 }
 variable "content" {
     default = "I don't love Pets !!!!!!!!!!!!!"
